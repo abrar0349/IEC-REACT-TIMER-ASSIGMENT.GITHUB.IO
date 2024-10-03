@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #202020;
+}
+
+.timer{
+    margin: auto;
+    color: white;
+    /* border: 2px solid; */
+    text-align: center;
+    margin-block: 15%;
+    /* height: 20VH; */
+}
+.timerBtn{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid; */
+    width: 40%;
+    height: 4vh;
+    margin: auto;
+    margin-top: 6%;
+}
+.timerBtn button{
+    width: 15%;
+    color: wheat;
+    font-weight: 600;
+    background-color: aqua;
+    border-radius: 5%;
+    /* height: 10%; */
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.timerBtn button:active{
+    background-color: rgb(42, 221, 221);
+}
